@@ -24,7 +24,7 @@ h6 {
   font-weight: 600;
   font-family: spline sans,sans-serif!important
 }
-a ~ #circle {
+a ~ {
   color: #45aed6;
   -webkit-transition: color 400ms, background-color 400ms;
   -moz-transition: color 400ms, background-color 400ms;
@@ -32,25 +32,25 @@ a ~ #circle {
   transition: color 400ms, background-color 400ms;
 }
 a:hover,
-a:focus ~ #circle {
+a:focus {
   text-decoration: none;
   color: #2a95be;
 }
-hr ~ #circle {
+hr {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
 }
-.gradiant ~ #circle {
+.gradiant {
   background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
 }
-.gradiant-horizontal ~ #circle {
+.gradiant-horizontal {
   background-image: -moz-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -webkit-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -ms-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
 }
-.section-header ~ #circle {
+.section-header {
   margin-bottom: 50px;
 }
 
@@ -60,7 +60,7 @@ hr ~ #circle {
 .section-header p{
 text-align:center;
 }
-.section-header .section-title ~ #circle {
+.section-header .section-title {
   font-size: 44px;
   color: #CEA729;
   position: relative;
@@ -79,7 +79,7 @@ text-align:center;
     border-radius: 0.75rem;
     padding: 12px 28px;
 }
-.btn.btn-primary ~ #circle {
+.btn.btn-primary {
   background-color: #d775ff;
     border: none!important;
     color: #fff;
@@ -98,7 +98,7 @@ padding:0px;
 padding-right:15px;
 color: #CEA729;
 }
-.column-title ~ #circle {
+.column-title {
   margin-top: 0;
   padding-bottom: 15px;
   border-bottom: 1px solid #eee;
@@ -106,14 +106,14 @@ color: #CEA729;
   position: relative;
   color: #fff;
 }
-.column-title:after ~ #circle {
+.column-title:after {
   content: " ";
   position: absolute;
   bottom: -1px;
   left: 0;
   width: 40%; 
 }
-ul.nostyle ~ #circle {
+ul.nostyle {
   list-style: none;
   padding: 0;
   margin-bottom: 20px;
@@ -121,45 +121,16 @@ ul.nostyle ~ #circle {
 ul.nostyle i {
   color: #45aed6;
 }
-::-webkit-scrollbar ~ #circle {
+::-webkit-scrollbar {
   display: none;
 }
 
-.scaleIn ~ #circle {
+.scaleIn {
   -webkit-animation-name: scaleIn;
   animation-name: scaleIn;
 }
 .navbar-toggle{
 border-radius: 0;
-}
-
-/* Styling the cursor circle */
-#circle {
-  position: fixed;
-  width: 32px;
-  height: 32px;
-  background-color: #bf9311;
-  border-radius: 50%;
-  pointer-events: none;
-  transition: 
-    box-shadow ease-in 150ms,
-    transform ease-in 150ms
-  ;
-}
-
-@keyframes pulse {
-  0% {
-    opacity: 0.2;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.9;
-    transform: scale(2);
-  }
-  100% {
-    opacity: 0.2;
-    transform: scale(1);
-  }
 }
 
 @-webkit-keyframes scaleIn {
