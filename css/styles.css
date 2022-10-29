@@ -14,6 +14,7 @@ body {
   color: #919196;
   line-height: 26px;
   padding: 0;
+  cursor: url(./images/cursor.png), auto;
 }
 h1,
 h2,
@@ -193,7 +194,6 @@ color: #FFFFFF;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
 color: #CEA729;
- 
 background: transparent;
 }
 .navbar-default .navbar-nav>li>a{
@@ -205,7 +205,6 @@ background: #FFF;
 }
 .navbar-nav>li {
 }
- 
 
 @media only screen and (min-width: 768px) {
   #main-nav.navbar-default { 
@@ -327,7 +326,7 @@ color: #FFF;
 #hero-banner.banner-inner .btn {
   margin-top: 10px;
 } 
- 
+
 #hero-text {
   padding: 50px 0;
   border-top: 1px solid #FFFFFF;
@@ -590,7 +589,7 @@ margin: 0 8px;
   background: #07080A;
   background: url('../images/img2.jpg');    
   background-size: cover;  };
-}
+
 #about .column-title{
 color:#fff;
 }
@@ -635,7 +634,7 @@ color:#fff;
 
 
 
- 
+
 #our-team .social-icons {
   list-style: none;
   padding: 0;
@@ -702,7 +701,7 @@ line-height: 22px;
 	border-radius: 20px;
 	border: 1px solid rgba(255, 255, 255, 0.39);
 }
- 
+
 .single-testimonial blockquote:after{
 	/* position:absolute; */
 	/* bottom:-19px; */
@@ -722,7 +721,7 @@ line-height: 22px;
 	font-size: 16px;
 	color: #CEA729;
 }
- 
+
 .progress {
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -753,7 +752,7 @@ line-height: 22px;
 .nav.main-tab > li:last-child > a {
   border-radius: 0 3px 0 0;
 }
- .navbar-nav {
+.navbar-nav {
 margin: 0;  
 }
 .tab-content {
@@ -882,10 +881,10 @@ color: #FFFFFF;
 #contact-us h2 {
 }
 /*Contact*/
- .contact-info{
- background: #CEA729;
- padding: 50px;
- margin-bottom: 50px;
+.contact-info{
+background: #CEA729;
+padding: 50px;
+margin-bottom: 50px;
 }
 .contact-info address {
 margin-bottom: 20px;
@@ -897,7 +896,7 @@ font-size: 15px;
 padding: 6px 12px;
 border-radius: 0;
 }
- .business-stats:before {
+.business-stats:before {
 content: '';
 margin: 17px;
 display: block;
@@ -928,7 +927,7 @@ width: 100px;
   margin: 0 -7.5px;
 }
 #footer ul > li {
- display: inline-block; 
+display: inline-block; 
 
 padding: 3px 0;
 width: 31px;
