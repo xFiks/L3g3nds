@@ -24,7 +24,7 @@ h6 {
   font-weight: 600;
   font-family: spline sans,sans-serif!important
 }
-a {
+a ~ #circle {
   color: #45aed6;
   -webkit-transition: color 400ms, background-color 400ms;
   -moz-transition: color 400ms, background-color 400ms;
@@ -32,25 +32,25 @@ a {
   transition: color 400ms, background-color 400ms;
 }
 a:hover,
-a:focus {
+a:focus ~ #circle {
   text-decoration: none;
   color: #2a95be;
 }
-hr {
+hr ~ #circle {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
 }
-.gradiant {
+.gradiant ~ #circle {
   background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
 }
-.gradiant-horizontal {
+.gradiant-horizontal ~ #circle {
   background-image: -moz-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -webkit-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -ms-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
 }
-.section-header {
+.section-header ~ #circle {
   margin-bottom: 50px;
 }
 
@@ -60,7 +60,7 @@ hr {
 .section-header p{
 text-align:center;
 }
-.section-header .section-title {
+.section-header .section-title ~ #circle {
   font-size: 44px;
   color: #CEA729;
   position: relative;
@@ -79,7 +79,7 @@ text-align:center;
     border-radius: 0.75rem;
     padding: 12px 28px;
 }
-.btn.btn-primary {
+.btn.btn-primary ~ #circle {
   background-color: #d775ff;
     border: none!important;
     color: #fff;
@@ -98,7 +98,7 @@ padding:0px;
 padding-right:15px;
 color: #CEA729;
 }
-.column-title {
+.column-title ~ #circle {
   margin-top: 0;
   padding-bottom: 15px;
   border-bottom: 1px solid #eee;
@@ -106,14 +106,14 @@ color: #CEA729;
   position: relative;
   color: #fff;
 }
-.column-title:after {
+.column-title:after ~ #circle {
   content: " ";
   position: absolute;
   bottom: -1px;
   left: 0;
   width: 40%; 
 }
-ul.nostyle {
+ul.nostyle ~ #circle {
   list-style: none;
   padding: 0;
   margin-bottom: 20px;
@@ -121,17 +121,18 @@ ul.nostyle {
 ul.nostyle i {
   color: #45aed6;
 }
-::-webkit-scrollbar {
+::-webkit-scrollbar ~ #circle {
   display: none;
 }
 
-.scaleIn {
+.scaleIn ~ #circle {
   -webkit-animation-name: scaleIn;
   animation-name: scaleIn;
 }
 .navbar-toggle{
 border-radius: 0;
 }
+
 /* Styling the cursor circle */
 #circle {
   position: fixed;
