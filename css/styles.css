@@ -14,7 +14,7 @@ body {
   color: #919196;
   line-height: 26px;
   padding: 0;
-  cursor: url(./images/cursor.png), auto;
+  cursor: url(images/cursor.png), auto;
 }
 h1,
 h2,
