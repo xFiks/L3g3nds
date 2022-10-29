@@ -14,7 +14,6 @@ body {
   color: #919196;
   line-height: 26px;
   padding: 0;
-  cursor: url(images/cursor.svg), auto;
 }
 h1,
 h2,
@@ -132,6 +131,19 @@ ul.nostyle i {
 }
 .navbar-toggle{
 border-radius: 0;
+}
+/* Styling the cursor circle */
+#circle {
+  position: fixed;
+  width: 32px;
+  height: 32px;
+  background-color: #bf9311;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: 
+    box-shadow ease-in 150ms,
+    transform ease-in 150ms
+  ;
 }
 
 @-webkit-keyframes scaleIn {
